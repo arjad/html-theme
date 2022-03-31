@@ -1,0 +1,62 @@
+ .call-div{
+     padding-bottom: 200px;
+ }
+ .call-div .laptop-img{
+    width: 355px;
+    height: 500px;
+    background-image: url("../../assets/laptopbg.png");
+    background-size: cover;
+    position: relative;
+    margin: auto;
+}
+.phone{
+    background: linear-gradient(180deg, #01B0FF 0%, #0051F1 100%);
+    border-radius: 10px;
+    width: 355px;
+    height: 500px;
+    position: absolute;
+    top:150px;
+    color:white;
+    left:100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.fa-phone{
+    color:wheat;
+    border-radius: 50%;
+    
+    height:70px;
+    width:70px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    background: linear-gradient(180deg, #01B0FF 0%, #0051F1 100%);
+
+}
+.phone p{
+    text-align: center;
+}
+.phone button{
+    background: rgba(255, 255, 255, 0.2);
+/* color White */
+margin-top: -60px;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 30px;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+@media (max-width: 520px) {
+    .call-div .laptop-img{
+        margin-left: 2%;
+    }
+}

@@ -1,0 +1,17 @@
+.App{
+  background-color: #0C0F16;
+}
+  /* /// */
+  .main-page{
+    font-size: 40px;
+    font-weight: 800;
+  
+  }
+  .main-page p{
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+  }
+.main-div{
+  background-image: url("./assets/Group.jpg");
+}

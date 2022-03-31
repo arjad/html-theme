@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Redressed&family=Roboto+Slab&display=swap');
+
+.mob-div{
+    background: #0C0F16;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+.tri{
+    width: 469.18px;
+    height: 469.18px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    margin-top: 130px;
+    margin-left: -50px;
+    background: linear-gradient(180deg, #01B0FF 33.33%, #0C0F16 51.56%, #0051F1 68.75%);
+    opacity: 0.05;
+    border-radius: 3px;
+    transform: rotate(-135deg);
+    position: absolute;
+
+}
+.poly{
+    position: absolute;
+    top:120px;
+    left:140px;
+    background: #000000;
+opacity: 0.15;
+border-radius: 10px;
+height: 370px;
+width: 50px;
+clip-path: polygon(0 0, 100% 18%, 100% 82%, 0% 100%);
+}
+.poly2{
+    position: absolute;
+    top:120px;
+    left:200px;
+}
+.poly3{
+    position: absolute;
+    top:120px;
+    left:260px;
+}
+.poly4{
+    position: absolute;
+    top:120px;
+    left:320px;
+}
+.mob-card{
+    height:400px;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(124, 116, 116, 0.4) 0%, rgba(107, 107, 107, 0.05) 100%);
+    /* opacity: 0.5; */
+    backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+}
+.fa-mobile-screen{
+    color:#2492e6;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.mob-heading{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.mob-heading span{
+font-family: 'Redressed', cursive;
+}
+.mob-card .para{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 21px;
+}
+.mob-card .lower-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mob-card .goahead{
+    font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+color: grey;
+}
+.mob-card .goahead i{
+    border: 1px solid grey;
+    border-radius: 50%;
+    height:14px;
+    width:14px;
+    background-color: transparent;
+    color:grey;
+    font-size: 8px;
+    text-align: center;
+    padding-top: 2px;
+    
+}
+.mob-card hr{
+    width: 50%;
+    margin: auto;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+.pre-next i{
+    border: 1px solid grey;
+    border-radius: 50%;
+    height:40px;
+    width:40px;
+    background-color: transparent;
+    color:grey;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 4px;
+
+}
+.pre-next i:nth-child(2){
+margin-left: 13px;
+}
+
+.option{
+    height:400px;
+    width:300px;
+    position: absolute;
+    right: 0px;
+    top:100px;
+    /* border:1px solid yellow; */
+    list-style: none;
+    line-height: 30px;
+
+}
+.option li{
+    height: 40px;
+    width: 170px;
+    padding-left: 10%;
+    padding-top: 3px;
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 17% 100%, 0 51%, 14% 0);
+    margin-top: 20px;
+    transition-duration: .5s;
+    border-top: 1px solid #0C0F16;
+    color: grey;
+}
+.option li:hover{
+    /* color:#0051F1;/ */
+    cursor: pointer;
+    background-image: linear-gradient(to);
+
+    /* border:1px solid #0C0F16 */
+    background-image: linear-gradient(140deg,blue 12%,#0C0F16 5%,#0C0F16 90%,  #0C0F16 99%);
+    border-top: 1px solid blue;;
+}
+
+@media (max-width: 998px) {
+
+    .mob-card{
+        margin: 0%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+}
+@media (max-width: 520px) {
+    .option{
+        display: none;
+    }
+    .mob-card{
+        padding-top: 20%;
+        height: 350px;
+        margin-left: 20%;
+    }
+    .mob-card .lower-div hr{
+        position: absolute;
+        top:170px;
+        left:20px;
+    }
+    .mob-card p{
+        margin-top: 10px;
+    }
+    .mob-card .pre-next{
+        position: absolute;
+        top:35px;
+        right:20px;
+    }
+}
