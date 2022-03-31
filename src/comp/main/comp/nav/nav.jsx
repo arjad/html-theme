@@ -20,7 +20,8 @@ function Nav()
                  className={
                    showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
                  }>
-                     <img src={Logo} className="logo"/>     
+                     <img src={Logo} className="logo"/> 
+                     <div className="verticalline"></div>    
                  <ul className='text-white'>
                    <li>
                      <a>Who We Are </a>

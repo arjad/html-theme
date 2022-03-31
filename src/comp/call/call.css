@@ -1,13 +1,17 @@
  .call-div{
      padding-bottom: 200px;
+     position: relative;
+     height: 130vh;
  }
  .call-div .laptop-img{
     width: 355px;
     height: 500px;
     background-image: url("../../assets/laptopbg.png");
     background-size: cover;
-    position: relative;
-    margin: auto;
+    position: absolute;
+    width: 400px;
+    height: 585px;
+    left: 419px;
 }
 .phone{
     background: linear-gradient(180deg, #01B0FF 0%, #0051F1 100%);
@@ -22,6 +26,12 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    
+position: absolute;
+width: 400px;
+height: 585px;
+left: 135px;
+top: 140px;
 }
 .fa-phone{
     color:wheat;

@@ -1,27 +1,27 @@
 .client-div{
-    height: 90vh;
     width: 100%;
     background-image:linear-gradient(rgba(0, 0, 0,0.6), rgba(0, 0, 0,0.6)), url("../../assets/bg.png");
     background-size: 100% 100%;
     position: relative;
+    height: 643px;
 
 }
 .front-card{
     background: linear-gradient(180deg, #01B0FF 0%, #0051F1 100%);
     box-shadow: -8px 0px 10px rgba(0, 0, 0, 0.15);
     border-radius: 10px 10px 0px 0px;
-    height: 85%;
-    width: 350px;
-    position: absolute;
     bottom: 0px;
-    left:30%;
-    padding: 27px;
+    padding: 47px;
     padding-top: 45px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     z-index: 20;
+    position: absolute;
+width: 400px;
+height: 552px;
+left: 381px;
     box-shadow: -8px 0px 10px rgba(0, 0, 0, 0.15);
 
 }
@@ -45,6 +45,7 @@ font-weight: 300;
 font-size: 17px;
 line-height: 27px;
 /* identical to box height */
+margin-top: 20px;
 
 text-align: center;
 letter-spacing: 0.6em;
@@ -60,7 +61,7 @@ color: #FFFFFF;
 font-weight: 700;
 font-size: 24px;
 line-height: 36px;
-/* identical to box height */
+margin-top: 35px;
 
 text-align: center;
 
@@ -71,11 +72,12 @@ color: #FFFFFF;
     margin-left: 10px;
 }
 .front-card p{
+    margin-top: 35px;
+
     font-style: italic;
 font-weight: 400;
 font-size: 16px;
 line-height: 166%;
-margin-top: 10px;
 /* or 30px */
 
 letter-spacing: 0.11em;
@@ -168,26 +170,31 @@ box-shadow: -20px 1px 22px -15px rgb(51, 51, 51);
 .text-div {
     height: 40%;
     width: 32%;
-    position: absolute;
-    right:10%;
-    top:20%;
     color: white;
     font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 70px;
 letter-spacing: 0.215em;
+position: absolute;
+width: 433px;
+height: 210px;
+left: 843px;
+top: 99px;
+opacity: 0.5;
+
 }
 .pre-next i{
     border: 1px solid grey;
     border-radius: 50%;
-    height:40px;
-    width:40px;
+    width: 48px;
+height: 48px;
     background-color: transparent;
     color:grey;
     font-size: 30px;
     text-align: center;
-    padding-top: 4px;
+    padding-top: 7px;
+    padding-left: 4px;
 
 }
 .pre-next i:nth-child(2){

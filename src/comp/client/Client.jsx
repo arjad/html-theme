@@ -26,8 +26,8 @@ function Client()
             <div className="bluediv2"></div>  
             <div className="bluediv3"></div>
             <div className='pre-next pre-next-bluediv' >
-                        <i class="fa-solid fa-angle-left"></i>
-                        <i class="fa-solid fa-chevron-right"></i>
+              <i class="fa-solid fa-angle-left"></i>
+              <i class="fa-solid fa-chevron-right"></i>
             </div>
         </div>
 

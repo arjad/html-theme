@@ -12,14 +12,10 @@ function Know()
                 Your full stack technology partners from idea conception to project execution and Maintenance.
             </h4>
         </div>
-        <div className='col-lg-6 know-right'>
-            <p className='border-light'>WebWrite IT Services is a bespoke software development company specializing in research-led, human-centered custom software development, progressive web apps (PWA's), and mobile applications. </p>
-            <pre>
-                <p>Learn More</p>
+            <p className='border-light knowp'>WebWrite IT Services is a bespoke software development company specializing in research-led, human-centered custom software development, progressive web apps (PWA's), and mobile applications. </p>
+                <p className='learn'>Learn More</p>
                 <hr className='greyhr'/>
-            </pre>
            
-        </div>
     </div>
   )
 }

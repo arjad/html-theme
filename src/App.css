@@ -5,13 +5,18 @@
   .main-page{
     font-size: 40px;
     font-weight: 800;
-  
   }
   .main-page p{
     font-size: 18px;
     font-weight: normal;
     margin-top: 20px;
   }
+
 .main-div{
   background-image: url("./assets/Group.jpg");
+  position: relative;
+  width: 100%;
+  height: 768px;
+  left: -1px;
+  top: 0px;
 }
